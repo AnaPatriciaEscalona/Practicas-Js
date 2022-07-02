@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo de Ahorro</title>
+</head>
+<h1 >Calcula cuantos meses te llevará ahorrar para eso que sueñas</h1>
+<body>
+    <h3>Te recomiendo redondear los precios para que sea un calculo par</h3>
+ <section>
+    <form>
+        <h2>Escribe cuánto vale lo que quieres comprar </h2>
+        <input type="number" id="inputPrecio">
+        <h2>Escribe cuánto dinero puedes guardar al mes</h2>
+        <input type="number" id="inputCantidadDeDinero">
+
+        <button type="button" onclick="calcularMesesParaLaCompra()">
+            calcular
+        </button>
+        <p id="ResultadoMeses"></p>
+    </form>
+ </section>   
+
+      <script src="ahorro.js"></script>
+</body>
+</html>

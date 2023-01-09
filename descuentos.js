@@ -18,7 +18,7 @@ function onClickButtonPriceDiscount(){ //imprime en html la función anterior
 
      const precioFinal = calcularPrecioConDescuento(priceValue, discountValue);
      const resultP     = document.getElementById('ResultP');
-     resultP.innerText = 'Tu descuento es de: ' + precioFinal + '%';
+     resultP.innerText = 'El valor de su producto con descuento es': ' + precioFinal + '$';
 }
 
 const cupones = [

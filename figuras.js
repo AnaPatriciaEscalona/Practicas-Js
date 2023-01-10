@@ -57,7 +57,7 @@ function altura(lado1, lado2, base){
 
 //Interactuando con Html
 
-function calcularPerimetroCirculo(){
+function calcularPerimetroCuadrado(){
 const input = document.getElementById('inputCuadrado');
 
 const value = input.value;
